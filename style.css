@@ -308,7 +308,15 @@ body {
 }
 
 
-@media (min-width: 576px) {
+@media(min-width: 576px) {
+
+.container-fluid {
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+}    
+
+}
 /*Main Section*/
 .text-header {
     font-size: 2rem;
@@ -442,13 +450,13 @@ body {
     padding-bottom: 40px;
 }
 /*
-@media screen and (min-width: 768px) {
+@media screen(min-width: 768px) {
 
 }
 */
 
 
-@media screen and (min-width: 992px) and (min-width: 1000px) {
+@media (min-width: 992px) and (min-width: 1000px) {
     body {
         margin: 0;
         padding: 0;
