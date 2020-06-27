@@ -275,6 +275,7 @@ body {
     background-color: #3f1f96;
     padding: 30px 70px 5px 70px;
     height: 50vh;
+    overflow-y: hidden;
 }
 
 .footer-1 {
